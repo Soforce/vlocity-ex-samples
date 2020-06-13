@@ -1,5 +1,7 @@
 projectPath: vlocity
-queries:
-  - VlocityDataPackType: Product2
-    query: SELECT Id, Name FROM Product2 WHERE ProductCode LIKE 'VE-%'
-  - ItemImplementation	
+manifest:
+- PriceList/vlocity-ex
+- Product2/5d1c7a4a-fa30-d053-9725-d491e4f41c7b
+- Product2/9ea0ade4-764d-fa18-bb41-4d9d4e58ff3e
+- Product2/26e1ed65-5197-86d1-2eb6-79fe6e2cf569
+- Product2/b3787cc3-9fe0-7651-3591-ec20867046b0

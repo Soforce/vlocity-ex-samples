@@ -1,0 +1,33 @@
+[
+    {
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__DestinationDefaultQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMaxQuantity__c": 1,
+        "%vlocity_namespace%__DestinationMinQuantity__c": 1,
+        "%vlocity_namespace%__DestinationProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "5d1c7a4a-fa30-d053-9725-d491e4f41c7b",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "Product2/5d1c7a4a-fa30-d053-9725-d491e4f41c7b",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__GlobalKey__c": "f53cbdab-b77a-68c9-1749-84fc8766662d",
+        "%vlocity_namespace%__MappingsData__c": "[{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Asset Reference Id\",\"destination_attr_code\":\"ATT_ASSET_REF_ID_001\",\"source_field_name\":\"%vlocity_namespace%__AssetReferenceId__c\",\"source_type\":\"Field\"},{\"mapping_type\":\"ad-verbatim\",\"destination_attr_name\":\"Relies On Item\",\"destination_attr_code\":\"ATT_RELIES_ON_ITEM_001\",\"source_field_name\":\"%vlocity_namespace%__ReliesOnItemId__c\",\"source_type\":\"Field\"}]",
+        "%vlocity_namespace%__Priority__c": "",
+        "%vlocity_namespace%__RequireReservation__c": false,
+        "%vlocity_namespace%__SourceDefaultQuantity__c": 1,
+        "%vlocity_namespace%__SourceMaxQuantity__c": "",
+        "%vlocity_namespace%__SourceMinQuantity__c": 0,
+        "%vlocity_namespace%__SourceProductId__c": {
+            "%vlocity_namespace%__GlobalKey__c": "9ea0ade4-764d-fa18-bb41-4d9d4e58ff3e",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/9ea0ade4-764d-fa18-bb41-4d9d4e58ff3e",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__SourceProductId__r.%vlocity_namespace%__GlobalKey__c": "9ea0ade4-764d-fa18-bb41-4d9d4e58ff3e",
+        "%vlocity_namespace%__XORGroup__c": "",
+        "Name": "UNI -> UNI CFS",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__DecompositionRelationship__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__DecompositionRelationship__c/UNI -> UNI CFS/Product2/9ea0ade4-764d-fa18-bb41-4d9d4e58ff3e"
+    }
+]

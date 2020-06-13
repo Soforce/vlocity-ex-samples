@@ -2,3 +2,4 @@ projectPath: vlocity
 queries:
   - VlocityDataPackType: Product2
     query: SELECT Id, Name FROM Product2 WHERE ProductCode LIKE 'VE-%'
+  - ItemImplementation	

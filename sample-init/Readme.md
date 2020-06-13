@@ -1,1 +1,1 @@
-# Configurations to Execute Vlocity-ex Samples
+# Pre-Installations for Vlocity-ex Samples

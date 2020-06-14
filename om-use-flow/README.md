@@ -3,10 +3,25 @@
 ---
 
 ## Prerequisite
-In order to complete this trailhead, you need:
+You need a VDO (Vlocity Demo Org) org to work on this tutorial. You also need to install SFDX and Vlocity Build Tool on your computer.
 1. Sign up a VDO (Vlocity Demo Org) org for your exercise if you don't have one. You can open "https://vdo.force.com" to apply a VDO org for yourself. Please select "Commmunications" in the "Industry" field.
+2. Install [Salesforce CLI Command](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm). You can follow the [Install the Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) to complete the installation.
+3. Install [Vlocity Build Tool](https://github.com/vlocityinc/vlocity_build#vlocity-build). You can follow the [Installation and Update Instructions](https://github.com/vlocityinc/vlocity_build#installation-and-update-instructions) to complete the installation.
+
+## Install and Configure [Vlocity Extension (Vlocity-ex)](https://github.com/Soforce/vlocity-ex#vlocity-extension-vlocity-ex-package) Package
+You need to install and configure the vlocity-ex package into your VDO org to complete this tutorial if you have not. You can follow [Install & Configure Vlocity-ex Package](https://github.com/Soforce/vlocity-ex#install--configure-vlocity-ex-package) to complete the installation and configuration.
+
+## 
+
+In order to complete this tutorial, you need a VDO (Vlocity demo org) org
+install & configure [vlocity-ex](https://github.com/Soforce/vlocity-ex) package into the org.
+
 2. Install Vlocity-ex (Vlocity Extension) package. You can reference "[Install Vlocity-ex package](https://github.com/Soforce/vlocity-ex/blob/master/README.md#install-vlocity-ex-package)" page for detail.
 3. Configure Vlocity-ex package after the installation. Youm can reference "[Configure Vlocity-ex package](https://github.com/Soforce/vlocity-ex/blob/master/README.md#-configure-vlocity-ex-package)" page for detail.
+
+## Install & deploy "Use Lightning Flow in Vlocity OM"
+1. Download or clone the [vlocity-ex-tutorials](https://github.com/Soforce/vlocity-ex-tutorials) GitHub repository into your computer.   
+
 4. Deploy Vlocity-ex sample data to be used by this trailhead.
 
 ## Create Lightning Flow

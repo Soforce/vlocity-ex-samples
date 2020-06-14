@@ -1,4 +1,10 @@
-# Salesforce App
+# Use Lightning Flow in Vlocity OM
+## Prerequisite
+In order to complete this trailhead, you need:
+1. Sign up a VDO (Vlocity Demo Org) org for your exercise if you don't have one. You can open "https://vdo.force.com" to apply a VDO org for yourself. Please select "Commmunications" in the "Industry" field.
+2. Install Vlocity-ex (Vlocity Extension) package. You can reference "[Install Vlocity-ex package](https://github.com/Soforce/vlocity-ex/blob/master/README.md#install-vlocity-ex-package)" page for detail.
+3. Configure Vlocity-ex package after the installation. Youm can reference "[Configure Vlocity-ex package](https://github.com/Soforce/vlocity-ex/blob/master/README.md#-configure-vlocity-ex-package)" page for detail.
+4. Deploy Vlocity-ex sample data to be used by this trailhead.
 
 This guide helps Salesforce developers who are new to Visual Studio Code go from zero to a deployed app using Salesforce Extensions for VS Code and Salesforce CLI.
 

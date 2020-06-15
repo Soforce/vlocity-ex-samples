@@ -1,4 +1,4 @@
-# vlocity Extension Package Tutorials
+# Vlocity Extension Package Tutorials
 Tutorials for the use of Vlocity Extension package.
 
 ## [tutorial-init](tutorial-init)

@@ -1,0 +1,26 @@
+[
+    {
+        "%vlocity_namespace%__Action__c": "Add",
+        "%vlocity_namespace%__ConditionData__c": "",
+        "%vlocity_namespace%__GlobalKey__c": "be5729c7-2506-4a92-6ad1-eca5c05ad87d",
+        "%vlocity_namespace%__OrchestrationPlanDefinitionId__c": {
+            "Name": "ve-sample: Use Flow in OM",
+            "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+            "VlocityLookupRecordSourceKey": "%vlocity_namespace%__OrchestrationPlanDefinition__c/ve-sample: Use Flow in OM",
+            "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationPlanDefinition__c"
+        },
+        "%vlocity_namespace%__OrchestrationPlanId__c": "",
+        "%vlocity_namespace%__Product2Id__c": {
+            "%vlocity_namespace%__GlobalKey__c": "26e1ed65-5197-86d1-2eb6-79fe6e2cf569",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "Product2/26e1ed65-5197-86d1-2eb6-79fe6e2cf569",
+            "VlocityRecordSObjectType": "Product2"
+        },
+        "%vlocity_namespace%__Product2Id__r.%vlocity_namespace%__GlobalKey__c": "26e1ed65-5197-86d1-2eb6-79fe6e2cf569",
+        "%vlocity_namespace%__SubAction__c": "",
+        "Name": "EVC CFS Scenario",
+        "VlocityDataPackType": "SObject",
+        "VlocityRecordSObjectType": "%vlocity_namespace%__OrchestrationScenario__c",
+        "VlocityRecordSourceKey": "%vlocity_namespace%__OrchestrationScenario__c/EVC CFS Scenario/Product2/26e1ed65-5197-86d1-2eb6-79fe6e2cf569"
+    }
+]

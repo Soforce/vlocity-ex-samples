@@ -4,8 +4,9 @@ This tutorial demonstrates how to use Lighting flow in Vlociyt OM. In the sample
 
 **Metadata included for this tutorial**  
 *  `ve_sample_Use_Flow_in_OM` - Lightning Flow
-*  `ve-sample-Use-Flow-in-OM` - Vlocity Orchestration Plan Definition
-*  `Test-OM-Flow_ve-sample-Use-Flow-in-OM` - Vlocity Orchestration Item Definition
+*  `OrchestrationPlanDefinition/ve-sample-Use-Flow-in-OM` - Vlocity Orchestration Plan Definition
+*  `OrchestrationItemDefinition/Test-OM-Flow_ve-sample-Use-Flow-in-OM` - Vlocity Orchestration Item Definition
+*  `Product2/26e1ed65-5197-86d1-2eb6-79fe6e2cf569` - EVC CFS Product which contains the plan scenario
 
 ## Prerequisite
 You need a VDO (Vlocity Demo Org) org to work on this tutorial. You also need to install SFDX and Vlocity Build Tool on your computer.

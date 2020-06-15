@@ -1,6 +1,11 @@
 # Use Lightning Flow in Vlocity OM
 ## Overview
----
+This tutorial demonstrates how to use Lighting flow in Vlociyt OM. In the sample Lightning flow, it reads "ReliesOnItemId__c" field from the order item and updates it into the "Relies On" attribute of fulfilment request line decomposed from the given order item.
+
+**Metadata included for this tutorial**  
+*  `ve_sample_Use_Flow_in_OM` - Lightning Flow
+*  `ve-sample-Use-Flow-in-OM` - Vlocity Orchestration Plan Definition
+*  `Test-OM-Flow_ve-sample-Use-Flow-in-OM` - Vlocity Orchestration Item Definition
 
 ## Prerequisite
 You need a VDO (Vlocity Demo Org) org to work on this tutorial. You also need to install SFDX and Vlocity Build Tool on your computer.
@@ -23,4 +28,10 @@ sfdx force:source:deploy -p force-app -u {VDOAlias}
 vlocity -job project.yaml packDeploy -u {VDOAlias}
 ```
 5. You also can deploy the [tutorial-init](../tutorial-init/datapacks/tutorial-init.json) datapack to install sample product catalogs to help you run the tutorial. You can reference [Deploy "tutorial-init" datapack](https://github.com/Soforce/vlocity-ex-tutorials/tree/master/tutorial-init#deploy-tutorial-init-datapack) for details.
+
+## Execute the Tutorial
+1. Create an Order and add **Ethernet Internet Access** and **User Network Interface** products
+2. Set the ReliesOnItemId__c on the **Ethernet Internet Access** to the Id of **User Network Interface** OLI to establish the relies on relationship.
+3. Decompose and submit the Order to OM
+4. Check the "Relies On" attribute of "EVC CFS" to see if it matches to the "ReliesOnItemId__c" field of the Ethernet Internet Access OLI.
 

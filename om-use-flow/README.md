@@ -42,6 +42,7 @@ vlocity -job project.yaml packDeploy -sfdx.username={VDOAlias}
 ```
 
 ## Execute the Tutorial
+In this sample, you will build an order with two products, one product relies on another by using the Vlocity relies on relatinship. Once the products are decomposed and submitted to OM, the fulfilment task, aka the orchestration item, will copy the relies on item Id from the Order Item into the attribute of the decomposed fulfilment request line record.  
 1. Create an Order and add **Ethernet Internet Access** and **User Network Interface** products
 2. Set the ReliesOnItemId__c on the **Ethernet Internet Access** to the Id of **User Network Interface** OLI to establish the relies on relationship.
 3. Decompose and submit the Order to OM

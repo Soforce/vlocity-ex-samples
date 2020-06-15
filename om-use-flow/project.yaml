@@ -1,3 +1,4 @@
+autoUpdateSettings: true
 projectPath: vlocity
 manifest:
 - OrchestrationPlanDefinition/ve-sample-Use-Flow-in-OM

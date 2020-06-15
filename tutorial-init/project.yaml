@@ -1,3 +1,4 @@
+autoUpdateSettings: true
 projectPath: vlocity
 manifest:
 - PriceList/vlocity-ex
